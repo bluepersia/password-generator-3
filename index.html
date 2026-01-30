@@ -8,9 +8,33 @@
         <!-- CSS-->
         <link rel="stylesheet" href="src/css/utilities.css"/>
         <link rel="stylesheet" href="src/css/style.css"/>
+        <link rel="stylesheet" href="src/css/blocks/pass-gen.css"/>
     </head>
 
     <body>
-
+        <main>
+            <section class="pass-gen" id="pass-gen">
+                <div class="pass-gen__configs">
+                    <h2 class="pass-gen__title">Generate a <span class="pass-gen__highlight">random password</span></h2>
+                    <p class="pass-gen__body">Never use an insecure password again.</p>
+                    <form class="pass-gen__form" data-form>
+                        <div class="pass-gen__form-group">
+                            <label for="length">Password Length:</label>
+                            <input class="pass-gen__input" id="length" type="number" name="length" value="15" required/>
+                        </div>
+                        <div class="pass-gen__form-group">
+                            <label>Use symbols <input type="checkbox" name="use-symbols" checked="true"/></label>
+                        </div>
+                        <div class="pass-gen__form-group">
+                            <label>Use numbers <input type="checkbox" name="use-numbers" checked="true"/></label>
+                        </div>
+                        <button type="submit" class="pass-gen__btn">Generate passwords</button>
+                    </form> 
+                </div>
+                <div class="pass-gen__outputs" data-outputs>
+                </div>
+            </section>
+        </main>
+        <script src="src/js/index.js" type="module"></script>
     </body>
 </html>

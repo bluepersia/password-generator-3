@@ -13,5 +13,13 @@
     --color-green-2: rgba(16, 185, 129, 1);
     --color-mid-gray: rgba(213, 212, 216, 1);
     --color-lighter-dark-blue: rgba(47, 62, 83, 1);
+    --color-lighter-dark-blue-2: rgba(39, 53, 73, 1);
+
+    --font-inter: "Inter", sans-serif;
+    --font-karla: "Karla", sans-serif;
+}
+
+body {
+    background-color: var(--color-dark-blue);
 }
 
