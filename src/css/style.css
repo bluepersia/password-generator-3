@@ -1,0 +1,17 @@
+*, ::before, ::after
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root 
+{
+    --color-dark-blue: rgba(31, 41, 55, 1);
+    --color-blank: white;
+    --color-green: rgba(85, 249, 145, 1);
+    --color-green-2: rgba(16, 185, 129, 1);
+    --color-mid-gray: rgba(213, 212, 216, 1);
+    --color-lighter-dark-blue: rgba(47, 62, 83, 1);
+}
+
