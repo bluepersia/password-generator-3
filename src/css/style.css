@@ -18,3 +18,7 @@
     --font-karla: "Karla", sans-serif;
 }
 
+body {
+    background-color: var(--color-dark-blue);
+}
+
